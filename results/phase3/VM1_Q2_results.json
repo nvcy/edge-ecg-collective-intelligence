@@ -1,0 +1,18 @@
+{
+  "vm_id": "VM1",
+  "tech_id": "Q2",
+  "tech_name": "Static PTQ",
+  "accuracy": 0.9747853097021744,
+  "avg_latency_ms": 367.10995859994,
+  "std_latency_ms": 246.92023777208044,
+  "avg_cpu_percent": 64.143,
+  "avg_ram_mb": 670.176953125,
+  "cpu_capacity_pct": 100.0,
+  "cpu_cores": 1,
+  "ram_capacity_mb": 500.0,
+  "storage_capacity_gb": 452.13,
+  "storage_free_gb": 398.4,
+  "storage_used_pct": 7.2,
+  "model_size_mb": 0.295,
+  "model_path": "/app/results/optimization/Q2_model.pt"
+}

@@ -1,0 +1,18 @@
+{
+  "vm_id": "VM3",
+  "tech_id": "Q3",
+  "tech_name": "QAT",
+  "accuracy": 0.9768865338936598,
+  "avg_latency_ms": 0.939374999870779,
+  "std_latency_ms": 0.2769169618489341,
+  "avg_cpu_percent": 390.09499999999997,
+  "avg_ram_mb": 670.30859375,
+  "cpu_capacity_pct": 100.0,
+  "cpu_cores": 2,
+  "ram_capacity_mb": 2048.0,
+  "storage_capacity_gb": 452.13,
+  "storage_free_gb": 398.39,
+  "storage_used_pct": 7.2,
+  "model_size_mb": 0.295,
+  "model_path": "/app/results/optimization/Q3_model.pt"
+}

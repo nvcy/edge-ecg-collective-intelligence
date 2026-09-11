@@ -1,0 +1,18 @@
+{
+  "vm_id": "VM2",
+  "tech_id": "P1",
+  "tech_name": "Unstructured Pruning",
+  "accuracy": 0.9801297277544309,
+  "avg_latency_ms": 4.400708300090628,
+  "std_latency_ms": 10.508653074652502,
+  "avg_cpu_percent": 596.063,
+  "avg_ram_mb": 678.1953125,
+  "cpu_capacity_pct": 100.0,
+  "cpu_cores": 2,
+  "ram_capacity_mb": 1024.0,
+  "storage_capacity_gb": 452.13,
+  "storage_free_gb": 398.39,
+  "storage_used_pct": 7.2,
+  "model_size_mb": 1.1851,
+  "model_path": "/app/results/optimization/P1_model.pt"
+}

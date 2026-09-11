@@ -1,0 +1,9 @@
+{
+  "selected_dataset": "mitbih",
+  "path": "/Users/ayoub/work/MS-DS_ML_Projects/IOT/mitbih",
+  "score": 35,
+  "justification": "User-selected MIT-BIH CSV dataset for phase pipeline rerun.",
+  "n_classes": 5,
+  "n_samples": null,
+  "task": "classification"
+}
