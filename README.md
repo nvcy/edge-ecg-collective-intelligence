@@ -175,8 +175,6 @@ The classifier was iteratively hardened against the MIT-BIH class imbalance
 | Naïve baseline   | ECGNet1D            | ~62 K   | **88.45 %** | 0.497 | F-class collapse (F1 = 0.00) |
 | Weighted CNN     | ECGNet1D + class weights | ~62 K | 96.93 % | 0.856 | α-weighted loss + light aug |
 | **Final baseline** | **ECGNet1D**      | **77,445** | **97.43 %** | **0.882** | FocalLoss γ = 2.0, calibrated heads |
-| Classical (P1)   | LogisticRegression  | —       | 67.47 % | 0.478 | `class_weight="balanced"` |
-| Classical (P2)   | RandomForest        | —       | 97.23 % | 0.858 | `balanced_subsample`, 500 trees |
 
 > **Ablation warning.** An over-aggressive SMOTE + FocalLoss(γ = 2.5) +
 > WeightedRandomSampler run collapsed to **16.4 % accuracy** by driving N-recall to
